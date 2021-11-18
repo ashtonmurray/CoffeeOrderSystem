@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="250.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OrderSummaryController">
+   <children>
+      <Label fx:id="nameLabel" layoutX="26.0" layoutY="36.0" text="Customer Name" textFill="#6225da">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="orderLabel" layoutX="26.0" layoutY="125.0" text="Order" textFill="#ee1414">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelButton" layoutX="26.0" layoutY="200.0" mnemonicParsing="false" onAction="#cancelButtonClick" text="Cancel my order" />
+      <Button fx:id="confirmButton" layoutX="165.0" layoutY="200.0" mnemonicParsing="false" onAction="#confirmButtonClick" text="Give me my coffee! " />
+   </children>
+</AnchorPane>
